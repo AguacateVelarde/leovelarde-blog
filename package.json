@@ -1,10 +1,10 @@
 {
-  "name": "hexo-site",
+  "name": "leovelarde-blog",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "postinstall": "npm i -g clean-css-cli",
-    "build": "cleancss -o ./themes/dev-dark-theme/source/css/style.min.css ./themes/dev-dark-theme/source/css/style.css && hexo generate"
+    "build": "cleancss -o ./themes/leovelarde/source/css/style.min.css ./themes/leovelarde/source/css/style.css && hexo generate"
   },
   "hexo": {
     "version": "3.6.0"
