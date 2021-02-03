@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Dev Dark Theme
+title: Leo Velarde blog
 
 # meta tags
 charset: utf-8
 robots: index, follow
-keywords: Dev-Dark-Theme, DevDarkTheme, Hexo, Theme, Dev, Dark, Theme
-content: The dev dark theme is a theme developed by Marcos Gonçalves(codermarcos) using hexo.
-author: codermarcos
+keywords: leo, velarde, developer, blog, tech, frontend, backend
+content: Blog sobre tecnología y desarrollo web
+author: leo_velarde_
 
 # Locale
-language: pt
-date_format: YYYY-MM-DD
+language: es
+date_format: DD-MM-YYYY
 time_format: HH:mm:ss
 
 sitemap:
@@ -62,11 +62,11 @@ generator_amp:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://dev-dark-theme.codermarcos.com
+url: http://blog.leovelarde.com
 root: /
 permalink: :lang/:category/:title/
 permalink_defaults: 
-  lang: pt
+  lang: es
 
 # Directory
 source_dir: source
@@ -104,7 +104,7 @@ index_generator:
   order_by: -date
   
 # Category & Tag
-default_category: uncategorized
+default_category: sin categoria
 category_map:
 tag_map:
 
