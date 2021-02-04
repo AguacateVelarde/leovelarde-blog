@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "npm run prebuild && hexo generate",
-    "prebuild": "sh preinstall.sh",
+    "prebuild": "cd ./themes/tranquilpeak && npm i && npm run prod",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server"
